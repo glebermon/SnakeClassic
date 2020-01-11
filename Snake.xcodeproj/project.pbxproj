@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7856309123CA5F8600BEEEBE /* SnakeTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 83767BFF1F40BA3B00122DB6 /* SnakeTests.xctest */; };
+		7856309223CA5F8700BEEEBE /* SnakeTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 83767BFF1F40BA3B00122DB6 /* SnakeTests.xctest */; };
 		834B6EC11F40CC0B00FDF852 /* SnakeEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 834B6EB81F40CC0B00FDF852 /* SnakeEngine.framework */; };
 		834B6ECA1F40CC0B00FDF852 /* SnakeEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 834B6EBA1F40CC0B00FDF852 /* SnakeEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		834B6ECD1F40CC0B00FDF852 /* SnakeEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 834B6EB81F40CC0B00FDF852 /* SnakeEngine.framework */; };
@@ -836,6 +838,7 @@
 					};
 					83767C091F40BA3B00122DB6 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 63SJACK9D4;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 83767BE41F40BA3B00122DB6;
 					};
@@ -922,6 +925,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7856309123CA5F8600BEEEBE /* SnakeTests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -929,6 +933,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7856309223CA5F8700BEEEBE /* SnakeTests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1492,11 +1497,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 63SJACK9D4;
 				INFOPLIST_FILE = SnakeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = greenpixels.net.SnakeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 2;
 				TEST_TARGET_NAME = Snake;
 			};
 			name = Debug;
@@ -1505,11 +1512,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 63SJACK9D4;
 				INFOPLIST_FILE = SnakeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = greenpixels.net.SnakeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 2;
 				TEST_TARGET_NAME = Snake;
 			};
 			name = Release;
