@@ -53,19 +53,19 @@ extension GameScene {
         view?.addGestureRecognizer(swipeDown)
     }
     
-    func swipeLeft(sender: UISwipeGestureRecognizer){
+    @objc func swipeLeft(sender: UISwipeGestureRecognizer){
         self.world.left()
     }
     
-    func swipeRight(sender: UISwipeGestureRecognizer){
+    @objc func swipeRight(sender: UISwipeGestureRecognizer){
         self.world.right()
     }
     
-    func swipeUp(sender: UISwipeGestureRecognizer){
+    @objc func swipeUp(sender: UISwipeGestureRecognizer){
         self.world.up()
     }
     
-    func swipeDown(sender: UISwipeGestureRecognizer){
+    @objc func swipeDown(sender: UISwipeGestureRecognizer){
         self.world.down()
     }
     
